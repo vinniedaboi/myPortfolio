@@ -1,0 +1,52 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import HorizontalCard from "../components/HorizontalCard.astro";
+---
+
+<BaseLayout title = "Projects" sideBarActiveItemID="projects">
+  <div>
+    <div class="text-3xl w-full font-bold mb-5">My Research Papers</div>
+  </div>
+
+  <HorizontalCard
+    title="Rust vs C++, A battle of speed and efficiency"
+    img="https://www.opastpublishers.com/content/flyers/journalof-mathematical-techniques-and-computational-mathematics-flyer.jpg"
+    desc="A research paper on Rust's performance compared to C++"
+    url="https://www.opastpublishers.com/open-access-articles/rust-vs-c-a-battle-of-speed-and-efficiency.pdf"
+    badge=""
+  />
+  <div class="divider my-0"></div>
+  <HorizontalCard
+    title="Using Machine Learning to Predict the Future of Stock Prices"
+    img="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV4wYXZujYnX8dWADKXxFVu6d6uDljY8oDXiK96cUTKvHkOYl3QFPTLsU4xVtidwW9OBs&usqp=CAU"
+    desc="A research paper about Machine Learning and the Stock Market"
+    url="https://www.techrxiv.org/doi/full/10.36227/techrxiv.23586378.v1"
+  />
+
+<!-- Need to add content here about my GitHub projects, as well as add Blog posts -->
+  <!-- <div>
+    <div class="text-3xl w-full font-bold mb-5 mt-10">Projects Header</div>
+  </div>
+
+  <HorizontalCard
+    title="Demo Project 3"
+    img="/post_img.webp"
+    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    url="#"
+    badge="FOSS"
+  />
+  <div class="divider my-0"></div>
+  <HorizontalCard
+    title="Demo Project 4"
+    img="/post_img.webp"
+    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    url="#"
+  />
+  <div class="divider my-0"></div>
+  <HorizontalCard
+    title="Demo Project 5"
+    img="/post_img.webp"
+    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    url="#"
+  /> -->
+</BaseLayout>
